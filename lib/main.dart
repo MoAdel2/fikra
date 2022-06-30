@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main()=> runApp(Fikra());
+void main()=> runApp(const Fikra());
 class Fikra extends StatelessWidget {
   const Fikra({Key? key}) : super(key: key);
 
@@ -15,7 +15,7 @@ class Fikra extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red [700]),
           backgroundColor: Colors.red[200],
-          body: const Image(image: AssetImage('assets/images/fikra.svg')),
+          body: const Image(image: AssetImage('assets/images/fikra.png')),
       ),
     );
   }
